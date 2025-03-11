@@ -8,7 +8,7 @@ Add to `~/.bashrc`:
 ```bash
 dependencies=(
     "$HOME/bashrc/variables.sh"
-    "$HOME/bashrc/env-setup.sh"
+    "$HOME/bashrc/environment.sh"
 )
 
 for file in "${dependencies[@]}"; do
